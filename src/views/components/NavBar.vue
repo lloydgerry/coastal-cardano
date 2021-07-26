@@ -45,6 +45,7 @@ h1 {
 }
 
 .nav-bar {
+  overflow: hidden;
   position: fixed;
   top: 0;
   left: 0;
@@ -57,12 +58,28 @@ h1 {
   margin: 0px;
   height: 65px;
   font-size: 120%;
-  font-family: Avenir, Arial, Helvetica, sans-serif;
+  z-index: 99;
+
 }
+
+#nav {
+  padding: 10px 10px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+}
+/* style NavBar links when hover */
+.nav-bar a:hover {
+  color: wheat;
+}
+/* style NavBar active link  */
+.nav-bar a.active {
+  color: cyan;
+}
+
 .nav-bar .nav-item-white {
   color: white;
   cursor: pointer;
 }
+
 .nav-bar #nav-right {
   padding-right: 1em;
 }

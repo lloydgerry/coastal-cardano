@@ -129,11 +129,15 @@ input {
 }
 
 .contact {
-  padding-left: 1em;
-  margin: 0.75em;
+  margin: -10px;
   padding: 0.75em;
+  padding-left: 1.5em;
+  padding-top: 2.5em;
   font-family: Avenir, Arial, Helvetica, sans-serif;
   font-size: 1.25vw;
+  background-size: 100%;
+  color: black;
+  text-align: left;
 }
 
 .form-control {
@@ -174,7 +178,7 @@ input {
   font-size: 105%;
 }
 
-# .fade-enter-active,
+.fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s ease;
 }

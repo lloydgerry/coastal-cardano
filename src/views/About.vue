@@ -24,10 +24,12 @@ export default {
 
 <style scoped lang="css">
 .about {
+  margin: -10px;
   align-items: start;
   text-align: left;
   word-break: normal;
   padding-left: 1em;
   font-size: 1.25vw;
+  color: black;
 }
 </style>
