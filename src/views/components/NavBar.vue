@@ -12,6 +12,8 @@
     </div>
     <div id="nav-right">
       <ul class="nav-item-white">
+        <router-link to="/faq">FAQ</router-link>
+        |
         <router-link to="/contact">Contact</router-link>
       </ul>
     </div>
@@ -81,10 +83,10 @@ h1 {
 }
 
 .nav-bar #nav-right {
-  padding-right: 1em;
+  padding-right: .75em;
 }
 .nav-bar #nav-left {
-  padding-left: 1em;
+  padding-left: .75em;
 }
 .nav-bar a {
   text-decoration: none;
